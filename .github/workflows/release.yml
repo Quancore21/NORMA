@@ -1,0 +1,44 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Тег совпадает с VERSION
+        shell: powershell
+        run: |
+          $tag = "${{ github.ref_name }}".TrimStart('v')
+          $v = (Get-Content VERSION -Raw).Trim()
+          if ($tag -ne $v) { Write-Error "Тег ($tag) не совпадает с VERSION ($v)"; exit 1 }
+
+      - name: Самопроверка ядра
+        shell: powershell
+        run: powershell -NoProfile -ExecutionPolicy Bypass -File tools\selftest.ps1
+
+      - name: Сборка архива
+        shell: powershell
+        run: |
+          $v = (Get-Content VERSION -Raw).Trim()
+          $name = "NORMA-$v"
+          $dest = Join-Path "dist" $name
+          Remove-Item -Path "vendor\zapret\lists\*-user.txt" -ErrorAction SilentlyContinue
+          New-Item -ItemType Directory -Path $dest -Force | Out-Null
+          robocopy . $dest /E /XD .git .github dist /XF .gitattributes .gitignore | Out-Null
+          if ($LASTEXITCODE -ge 8) { Write-Error "robocopy: код $LASTEXITCODE"; exit 1 }
+          Compress-Archive -Path $dest -DestinationPath ("dist\" + $name + ".zip") -Force
+          $global:LASTEXITCODE = 0
+
+      - name: Публикация релиза
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.zip
+          generate_release_notes: true
