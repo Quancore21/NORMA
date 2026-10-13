@@ -1,0 +1,7 @@
+# name: NORMA YT-12
+# family: tcp
+# scope: youtube
+# desc: hostfakesplit, fooling=ts
+# from: general (ALT9)
+# Файл создан tools/gen_strategies.py; правки будут перезаписаны при повторной генерации.
+--wf-tcp=443 --filter-tcp=443 --hostlist="%LISTS%list-google.txt" --ip-id=zero --dpi-desync=hostfakesplit --dpi-desync-repeats=4 --dpi-desync-fooling=ts --dpi-desync-hostfakesplit-mod=host=www.google.com

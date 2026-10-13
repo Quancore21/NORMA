@@ -1,0 +1,25 @@
+* text=auto
+
+# Windows scripts must keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.args text eol=crlf
+*.sample text eol=crlf
+
+# Everything else is LF in the repository
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.cs text eol=crlf
+VERSION text eol=lf
+
+# Binaries
+*.exe binary
+*.dll binary
+*.sys binary
+*.bin binary
+*.zip binary
+
+# Upstream files stay byte-for-byte as shipped (nested vendor/zapret/.gitattributes still applies)
+vendor/** -text

@@ -1,0 +1,14 @@
+# Runtime data (created by NORMA)
+data/*
+!data/.gitkeep
+!data/logs/
+data/logs/*
+!data/logs/.gitkeep
+
+# User files
+strategies/user/*.args
+vendor/zapret/lists/*-user.txt
+
+# Build output
+dist/
+*.part
