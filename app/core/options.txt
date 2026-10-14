@@ -1,0 +1,35 @@
+# Справочник параметров winws: имя<TAB>группа<TAB>описание. Единый источник для описаний стратегий в NORMA и для docs/OPTIONS.md.
+# Группы: capture, filter, list, desync, split, fake, misc. Файл читается кодом и tools/gen_strategies.py.
+wf-tcp	capture	Порты TCP, которые драйвер WinDivert перехватывает для обработки (фильтр захвата).
+wf-udp	capture	Порты UDP, которые драйвер WinDivert перехватывает для обработки (фильтр захвата).
+filter-tcp	filter	Профиль применяется к TCP-соединениям на этих портах.
+filter-udp	filter	Профиль применяется к UDP-трафику на этих портах.
+filter-l3	filter	Профиль применяется только к указанной версии IP (например ipv4).
+filter-l7	filter	Профиль применяется только к указанному протоколу прикладного уровня: discord, stun, quic, unknown.
+new	filter	Разделитель: дальше начинается следующий профиль со своими правилами.
+hostlist	list	Применять только к доменам из файла.
+hostlist-exclude	list	Не применять к доменам из файла.
+hostlist-domains	list	Применять только к перечисленным доменам (список прямо в параметре).
+hostlist-exclude-domains	list	Не применять к перечисленным доменам (список прямо в параметре).
+ipset	list	Применять только к IP-адресам и сетям из файла.
+ipset-exclude	list	Не применять к IP-адресам и сетям из файла.
+dpi-desync	desync	Режим десинхронизации: как именно сбить с толку систему DPI (fake, multisplit, multidisorder, fakedsplit, hostfakesplit и другие, через запятую).
+dpi-desync-repeats	desync	Сколько раз повторять отправку поддельных пакетов.
+dpi-desync-fooling	desync	Способ сделать поддельный пакет невидимым для сервера, но видимым для DPI: badseq (неверный порядковый номер), ts (неверная метка времени), md5sig (лишняя опция MD5), badsum (неверная контрольная сумма).
+dpi-desync-cutoff	desync	Сколько пакетов соединения обрабатывать (n2: первые два от клиента), дальше трафик идёт как обычно.
+dpi-desync-any-protocol	desync	Применять приём к любому протоколу, а не только к распознанным TLS и HTTP.
+dpi-desync-badseq-increment	desync	На сколько сдвигать порядковый номер при приёме badseq.
+dpi-desync-split-pos	split	Позиции, в которых данные разрезаются: числа от начала, а также маркеры вроде midsld (середина домена второго уровня).
+dpi-desync-split-seqovl	split	Перекрытие сегментов (seqovl): первый сегмент сдвигается назад на указанное число байт, перекрытие заполнено шаблоном, которое сервер отбрасывает.
+dpi-desync-split-seqovl-pattern	split	Чем заполнено перекрытие seqovl (файл с данными).
+dpi-desync-fakedsplit-pattern	split	Байты-заполнитель для режима fakedsplit.
+dpi-desync-hostfakesplit-mod	split	Параметры режима hostfakesplit: host=имя сайта для подделки, altorder=1 меняет порядок отправки.
+dpi-desync-fake-tls	fake	Содержимое поддельного TLS ClientHello: файл .bin или шаблон.
+dpi-desync-fake-tls-mod	fake	Изменения в поддельном ClientHello: rnd (случайные байты), dupsid (копия session id), sni=имя (подставить имя сайта).
+dpi-desync-fake-http	fake	Содержимое поддельного HTTP-запроса или пакета (файл .bin).
+dpi-desync-fake-quic	fake	Содержимое поддельного пакета QUIC Initial (файл .bin).
+dpi-desync-fake-unknown	fake	Содержимое поддельного пакета для нераспознанного TCP-протокола (файл .bin).
+dpi-desync-fake-unknown-udp	fake	Содержимое поддельного пакета для нераспознанного UDP-протокола (файл .bin).
+dpi-desync-fake-discord	fake	Содержимое поддельного пакета для обнаружения голосового трафика Discord (файл .bin).
+dpi-desync-fake-stun	fake	Содержимое поддельного пакета STUN (файл .bin).
+ip-id	misc	Что писать в поле IP ID поддельных пакетов (zero: ноль).
