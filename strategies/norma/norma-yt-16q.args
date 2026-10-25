@@ -1,0 +1,7 @@
+# name: NORMA YT-16Q
+# family: quic
+# scope: youtube
+# desc: fake,multidisorder, fooling=badseq
+# from: general (FAKE TLS AUTO)
+# Файл создан tools/gen_strategies.py; правки будут перезаписаны при повторной генерации.
+--wf-tcp=443 --wf-udp=443 --filter-udp=443 --hostlist="%LISTS%list-google.txt" --dpi-desync=fake --dpi-desync-repeats=6 --dpi-desync-fake-quic="%BIN%quic_initial_www_google_com.bin" --new --filter-tcp=443 --hostlist="%LISTS%list-google.txt" --ip-id=zero --dpi-desync=fake,multidisorder --dpi-desync-split-pos=1,midsld --dpi-desync-repeats=11 --dpi-desync-fooling=badseq --dpi-desync-fake-tls=0x00000000 --dpi-desync-fake-tls=! --dpi-desync-fake-tls-mod=rnd,dupsid,sni=www.google.com
