@@ -1,0 +1,1754 @@
+[
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:1",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "1",
+  "expect": "P:1"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:2",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "2",
+  "expect": "P:2"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:5000",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "5000",
+  "expect": "P:"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:0",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "0",
+  "expect": "P:"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:1,midsld",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "1,midsld",
+  "expect": "P:1,133"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:midsld",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "midsld",
+  "expect": "P:133"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:host",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "host",
+  "expect": "P:131"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:endhost",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "endhost",
+  "expect": "P:138"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:host+1",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "host+1",
+  "expect": "P:132"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:endhost-1",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "endhost-1",
+  "expect": "P:137"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:2,sniext+1",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "2,sniext+1",
+  "expect": "P:2|U:sniext"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:1,host,endhost",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "1,host,endhost",
+  "expect": "P:1,131,138"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:method+2",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "method+2",
+  "expect": "P:|U:method"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:3,3,2",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "3,3,2",
+  "expect": "P:2,3"
+ },
+ {
+  "id": "pos:tls_clienthello_4pda_to.bin:abc",
+  "kind": "positions",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "spec": "abc",
+  "expect": "P:|U:abc"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:1",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "1",
+  "expect": "P:1"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:2",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "2",
+  "expect": "P:2"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:5000",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "5000",
+  "expect": "P:"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:0",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "0",
+  "expect": "P:"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:1,midsld",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "1,midsld",
+  "expect": "P:1,126"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:midsld",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "midsld",
+  "expect": "P:126"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:host",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "host",
+  "expect": "P:125"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:endhost",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "endhost",
+  "expect": "P:131"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:host+1",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "host+1",
+  "expect": "P:126"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:endhost-1",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "endhost-1",
+  "expect": "P:130"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:2,sniext+1",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "2,sniext+1",
+  "expect": "P:2|U:sniext"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:1,host,endhost",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "1,host,endhost",
+  "expect": "P:1,125,131"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:method+2",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "method+2",
+  "expect": "P:|U:method"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:3,3,2",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "3,3,2",
+  "expect": "P:2,3"
+ },
+ {
+  "id": "pos:tls_clienthello_5ka_ru.bin:abc",
+  "kind": "positions",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "spec": "abc",
+  "expect": "P:|U:abc"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:1",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "1",
+  "expect": "P:1"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:2",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "2",
+  "expect": "P:2"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:5000",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "5000",
+  "expect": "P:"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:0",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "0",
+  "expect": "P:"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:1,midsld",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "1,midsld",
+  "expect": "P:1,133"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:midsld",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "midsld",
+  "expect": "P:133"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:host",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "host",
+  "expect": "P:125"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:endhost",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "endhost",
+  "expect": "P:141"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:host+1",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "host+1",
+  "expect": "P:126"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:endhost-1",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "endhost-1",
+  "expect": "P:140"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:2,sniext+1",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "2,sniext+1",
+  "expect": "P:2|U:sniext"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:1,host,endhost",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "1,host,endhost",
+  "expect": "P:1,125,141"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:method+2",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "method+2",
+  "expect": "P:|U:method"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:3,3,2",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "3,3,2",
+  "expect": "P:2,3"
+ },
+ {
+  "id": "pos:tls_clienthello_max_ru.bin:abc",
+  "kind": "positions",
+  "hello": "tls_clienthello_max_ru.bin",
+  "spec": "abc",
+  "expect": "P:|U:abc"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:1",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "1",
+  "expect": "P:1"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:2",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "2",
+  "expect": "P:2"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:5000",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "5000",
+  "expect": "P:"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:0",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "0",
+  "expect": "P:"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:1,midsld",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "1,midsld",
+  "expect": "P:1,156"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:midsld",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "midsld",
+  "expect": "P:156"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:host",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "host",
+  "expect": "P:127"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:endhost",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "endhost",
+  "expect": "P:161"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:host+1",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "host+1",
+  "expect": "P:128"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:endhost-1",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "endhost-1",
+  "expect": "P:160"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:2,sniext+1",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "2,sniext+1",
+  "expect": "P:2|U:sniext"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:1,host,endhost",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "1,host,endhost",
+  "expect": "P:1,127,161"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:method+2",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "method+2",
+  "expect": "P:|U:method"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:3,3,2",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "3,3,2",
+  "expect": "P:2,3"
+ },
+ {
+  "id": "pos:tls_clienthello_sochi_park.bin:abc",
+  "kind": "positions",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "spec": "abc",
+  "expect": "P:|U:abc"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:1",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "1",
+  "expect": "P:1"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:2",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "2",
+  "expect": "P:2"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:5000",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "5000",
+  "expect": "P:"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:0",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "0",
+  "expect": "P:"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:1,midsld",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "1,midsld",
+  "expect": "P:1,132"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:midsld",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "midsld",
+  "expect": "P:132"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:host",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "host",
+  "expect": "P:125"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:endhost",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "endhost",
+  "expect": "P:139"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:host+1",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "host+1",
+  "expect": "P:126"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:endhost-1",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "endhost-1",
+  "expect": "P:138"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:2,sniext+1",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "2,sniext+1",
+  "expect": "P:2|U:sniext"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:1,host,endhost",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "1,host,endhost",
+  "expect": "P:1,125,139"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:method+2",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "method+2",
+  "expect": "P:|U:method"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:3,3,2",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "3,3,2",
+  "expect": "P:2,3"
+ },
+ {
+  "id": "pos:tls_clienthello_www_google_com.bin:abc",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "spec": "abc",
+  "expect": "P:|U:abc"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:1",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "1",
+  "expect": "P:1"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:2",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "2",
+  "expect": "P:2"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:5000",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "5000",
+  "expect": "P:"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:0",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "0",
+  "expect": "P:"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:1,midsld",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "1,midsld",
+  "expect": "P:1,132"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:midsld",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "midsld",
+  "expect": "P:132"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:host",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "host",
+  "expect": "P:125"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:endhost",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "endhost",
+  "expect": "P:138"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:host+1",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "host+1",
+  "expect": "P:126"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:endhost-1",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "endhost-1",
+  "expect": "P:137"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:2,sniext+1",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "2,sniext+1",
+  "expect": "P:2|U:sniext"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:1,host,endhost",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "1,host,endhost",
+  "expect": "P:1,125,138"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:method+2",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "method+2",
+  "expect": "P:|U:method"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:3,3,2",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "3,3,2",
+  "expect": "P:2,3"
+ },
+ {
+  "id": "pos:tls_clienthello_www_sferum_ru.bin:abc",
+  "kind": "positions",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "spec": "abc",
+  "expect": "P:|U:abc"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:control",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "truncate:284",
+  "expect": "Ok:1;off:131;len:7;host:4pda.to"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:truncate-half",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "truncate:142",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:truncate-5",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "truncate:5",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:truncate-1",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "truncate:283",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:record-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "set16:3:280",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:record-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "set16:3:278",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:handshake-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "set24:6:276",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:handshake-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "set24:6:274",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:extensions-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "set16:120:163",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:extensions-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "set16:120:161",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:sni-ext-len-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "set16:124:13",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:sni-list-too-big",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "set16:126:22",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:sni-list-too-small",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "set16:126:2",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:sni-name-too-big",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "set16:129:5000",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:sni-name-zero",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "set16:129:0",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:sni-type-not-host",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "set8:128:1",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_4pda_to.bin:session-id-oversized",
+  "kind": "hello",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "op": "set8:43:255",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:control",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "truncate:654",
+  "expect": "Ok:1;off:125;len:6;host:5ka.ru"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:truncate-half",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "truncate:327",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:truncate-5",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "truncate:5",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:truncate-1",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "truncate:653",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:record-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "set16:3:650",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:record-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "set16:3:648",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:handshake-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "set24:6:646",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:handshake-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "set24:6:644",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:extensions-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "set16:114:539",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:extensions-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "set16:114:537",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:sni-ext-len-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "set16:118:12",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:sni-list-too-big",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "set16:120:21",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:sni-list-too-small",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "set16:120:2",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:sni-name-too-big",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "set16:123:5000",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:sni-name-zero",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "set16:123:0",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:sni-type-not-host",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "set8:122:1",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_5ka_ru.bin:session-id-oversized",
+  "kind": "hello",
+  "hello": "tls_clienthello_5ka_ru.bin",
+  "op": "set8:43:255",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:control",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "truncate:664",
+  "expect": "Ok:1;off:125;len:16;host:www.onetrust.com"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:truncate-half",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "truncate:332",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:truncate-5",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "truncate:5",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:truncate-1",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "truncate:663",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:record-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "set16:3:660",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:record-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "set16:3:658",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:handshake-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "set24:6:656",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:handshake-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "set24:6:654",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:extensions-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "set16:114:549",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:extensions-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "set16:114:547",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:sni-ext-len-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "set16:118:22",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:sni-list-too-big",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "set16:120:31",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:sni-list-too-small",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "set16:120:2",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:sni-name-too-big",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "set16:123:5000",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:sni-name-zero",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "set16:123:0",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:sni-type-not-host",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "set8:122:1",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_max_ru.bin:session-id-oversized",
+  "kind": "hello",
+  "hello": "tls_clienthello_max_ru.bin",
+  "op": "set8:43:255",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:control",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "truncate:244",
+  "expect": "Ok:1;off:127;len:34;host:staging-sochi-park.predict.mail.ru"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:truncate-half",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "truncate:122",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:truncate-5",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "truncate:5",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:truncate-1",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "truncate:243",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:record-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "set16:3:240",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:record-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "set16:3:238",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:handshake-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "set24:6:236",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:handshake-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "set24:6:234",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:extensions-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "set16:88:155",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:extensions-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "set16:88:153",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:sni-ext-len-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "set16:120:40",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:sni-list-too-big",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "set16:122:49",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:sni-list-too-small",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "set16:122:2",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:sni-name-too-big",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "set16:125:5000",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:sni-name-zero",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "set16:125:0",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:sni-type-not-host",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "set8:124:1",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_sochi_park.bin:session-id-oversized",
+  "kind": "hello",
+  "hello": "tls_clienthello_sochi_park.bin",
+  "op": "set8:43:255",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:control",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "truncate:681",
+  "expect": "Ok:1;off:125;len:14;host:www.google.com"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:truncate-half",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "truncate:340",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:truncate-5",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "truncate:5",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:truncate-1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "truncate:680",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:record-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "set16:3:677",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:record-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "set16:3:675",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:handshake-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "set24:6:673",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:handshake-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "set24:6:671",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:extensions-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "set16:114:566",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:extensions-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "set16:114:564",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:sni-ext-len-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "set16:118:20",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:sni-list-too-big",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "set16:120:29",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:sni-list-too-small",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "set16:120:2",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:sni-name-too-big",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "set16:123:5000",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:sni-name-zero",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "set16:123:0",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:sni-type-not-host",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "set8:122:1",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_google_com.bin:session-id-oversized",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "op": "set8:43:255",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:control",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "truncate:661",
+  "expect": "Ok:1;off:125;len:13;host:www.sferum.ru"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:truncate-half",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "truncate:330",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:truncate-5",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "truncate:5",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:truncate-1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "truncate:660",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:record-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "set16:3:657",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:record-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "set16:3:655",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:handshake-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "set24:6:653",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:handshake-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "set24:6:651",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:extensions-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "set16:114:546",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:extensions-minus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "set16:114:544",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:sni-ext-len-plus1",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "set16:118:19",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:sni-list-too-big",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "set16:120:28",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:sni-list-too-small",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "set16:120:2",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:sni-name-too-big",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "set16:123:5000",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:sni-name-zero",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "set16:123:0",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:sni-type-not-host",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "set8:122:1",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "hello:tls_clienthello_www_sferum_ru.bin:session-id-oversized",
+  "kind": "hello",
+  "hello": "tls_clienthello_www_sferum_ru.bin",
+  "op": "set8:43:255",
+  "expect": "Ok:0"
+ },
+ {
+  "id": "plan:norma-yt-01:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "hostfakesplit",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 0,
+  "fooling": "ts",
+  "fakeLen": 0,
+  "expect": "data:0:681:0|U:hostfakesplit|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-01:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "hostfakesplit",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 0,
+  "fooling": "ts",
+  "fakeLen": 0,
+  "expect": "data:0:284:0|U:hostfakesplit|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-02:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "fake",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 6,
+  "fooling": "ts",
+  "fakeLen": 681,
+  "expect": "fake:0:681:6;data:0:681:0|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-02:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "fake",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 6,
+  "fooling": "ts",
+  "fakeLen": 681,
+  "expect": "fake:0:681:6;data:0:284:0|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-03:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "multisplit",
+  "splitPos": "1",
+  "seqovl": 681,
+  "repeats": 0,
+  "fooling": "",
+  "fakeLen": 0,
+  "expect": "data:0:1:681;data:1:680:0"
+ },
+ {
+  "id": "plan:norma-yt-03:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "multisplit",
+  "splitPos": "1",
+  "seqovl": 681,
+  "repeats": 0,
+  "fooling": "",
+  "fakeLen": 0,
+  "expect": "data:0:1:681;data:1:283:0"
+ },
+ {
+  "id": "plan:norma-yt-04:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "fake,fakedsplit",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 6,
+  "fooling": "ts",
+  "fakeLen": 681,
+  "expect": "fake:0:681:6;data:0:681:0|U:fakedsplit|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-04:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "fake,fakedsplit",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 6,
+  "fooling": "ts",
+  "fakeLen": 681,
+  "expect": "fake:0:681:6;data:0:284:0|U:fakedsplit|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-05:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "fake,multisplit",
+  "splitPos": "1",
+  "seqovl": 681,
+  "repeats": 8,
+  "fooling": "ts",
+  "fakeLen": 681,
+  "expect": "fake:0:681:8;data:0:1:681;data:1:680:0|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-05:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "fake,multisplit",
+  "splitPos": "1",
+  "seqovl": 681,
+  "repeats": 8,
+  "fooling": "ts",
+  "fakeLen": 681,
+  "expect": "fake:0:681:8;data:0:1:681;data:1:283:0|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-06:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "hostfakesplit",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 0,
+  "fooling": "ts",
+  "fakeLen": 0,
+  "expect": "data:0:681:0|U:hostfakesplit|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-06:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "hostfakesplit",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 0,
+  "fooling": "ts",
+  "fakeLen": 0,
+  "expect": "data:0:284:0|U:hostfakesplit|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-07:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "multisplit",
+  "splitPos": "2",
+  "seqovl": 652,
+  "repeats": 0,
+  "fooling": "",
+  "fakeLen": 0,
+  "expect": "data:0:2:652;data:2:679:0"
+ },
+ {
+  "id": "plan:norma-yt-07:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "multisplit",
+  "splitPos": "2",
+  "seqovl": 652,
+  "repeats": 0,
+  "fooling": "",
+  "fakeLen": 0,
+  "expect": "data:0:2:652;data:2:282:0"
+ },
+ {
+  "id": "plan:norma-yt-08:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "fake,hostfakesplit",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 0,
+  "fooling": "ts",
+  "fakeLen": 0,
+  "expect": "fake:0:0:1;data:0:681:0|U:hostfakesplit|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-08:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "fake,hostfakesplit",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 0,
+  "fooling": "ts",
+  "fakeLen": 0,
+  "expect": "fake:0:0:1;data:0:284:0|U:hostfakesplit|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-09:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "fake,multisplit",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 6,
+  "fooling": "badseq",
+  "fakeLen": 681,
+  "expect": "fake:0:681:6;data:0:681:0|U:split-pos:none|F:badseq"
+ },
+ {
+  "id": "plan:norma-yt-09:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "fake,multisplit",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 6,
+  "fooling": "badseq",
+  "fakeLen": 681,
+  "expect": "fake:0:681:6;data:0:284:0|U:split-pos:none|F:badseq"
+ },
+ {
+  "id": "plan:norma-yt-10:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "multisplit",
+  "splitPos": "2,sniext+1",
+  "seqovl": 679,
+  "repeats": 0,
+  "fooling": "",
+  "fakeLen": 0,
+  "expect": "data:0:2:679;data:2:679:0|U:pos:sniext"
+ },
+ {
+  "id": "plan:norma-yt-10:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "multisplit",
+  "splitPos": "2,sniext+1",
+  "seqovl": 679,
+  "repeats": 0,
+  "fooling": "",
+  "fakeLen": 0,
+  "expect": "data:0:2:679;data:2:282:0|U:pos:sniext"
+ },
+ {
+  "id": "plan:norma-yt-11:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "fake",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 6,
+  "fooling": "badseq",
+  "fakeLen": 0,
+  "expect": "fake:0:0:6;data:0:681:0|F:badseq"
+ },
+ {
+  "id": "plan:norma-yt-11:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "fake",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 6,
+  "fooling": "badseq",
+  "fakeLen": 0,
+  "expect": "fake:0:0:6;data:0:284:0|F:badseq"
+ },
+ {
+  "id": "plan:norma-yt-12:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "hostfakesplit",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 4,
+  "fooling": "ts",
+  "fakeLen": 0,
+  "expect": "data:0:681:0|U:hostfakesplit|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-12:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "hostfakesplit",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 4,
+  "fooling": "ts",
+  "fakeLen": 0,
+  "expect": "data:0:284:0|U:hostfakesplit|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-13:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "fake,fakedsplit",
+  "splitPos": "1",
+  "seqovl": 0,
+  "repeats": 8,
+  "fooling": "badseq",
+  "fakeLen": 0,
+  "expect": "fake:0:0:8;data:0:681:0|U:fakedsplit|F:badseq"
+ },
+ {
+  "id": "plan:norma-yt-13:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "fake,fakedsplit",
+  "splitPos": "1",
+  "seqovl": 0,
+  "repeats": 8,
+  "fooling": "badseq",
+  "fakeLen": 0,
+  "expect": "fake:0:0:8;data:0:284:0|U:fakedsplit|F:badseq"
+ },
+ {
+  "id": "plan:norma-yt-14:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "fake,multisplit",
+  "splitPos": "1",
+  "seqovl": 681,
+  "repeats": 8,
+  "fooling": "badseq",
+  "fakeLen": 0,
+  "expect": "fake:0:0:8;data:0:1:681;data:1:680:0|F:badseq"
+ },
+ {
+  "id": "plan:norma-yt-14:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "fake,multisplit",
+  "splitPos": "1",
+  "seqovl": 681,
+  "repeats": 8,
+  "fooling": "badseq",
+  "fakeLen": 0,
+  "expect": "fake:0:0:8;data:0:1:681;data:1:283:0|F:badseq"
+ },
+ {
+  "id": "plan:norma-yt-15:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "fake,multisplit",
+  "splitPos": "1",
+  "seqovl": 681,
+  "repeats": 8,
+  "fooling": "ts",
+  "fakeLen": 0,
+  "expect": "fake:0:0:8;data:0:1:681;data:1:680:0|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-15:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "fake,multisplit",
+  "splitPos": "1",
+  "seqovl": 681,
+  "repeats": 8,
+  "fooling": "ts",
+  "fakeLen": 0,
+  "expect": "fake:0:0:8;data:0:1:681;data:1:283:0|F:ts"
+ },
+ {
+  "id": "plan:norma-yt-16:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "fake,multidisorder",
+  "splitPos": "1,midsld",
+  "seqovl": 0,
+  "repeats": 11,
+  "fooling": "badseq",
+  "fakeLen": 0,
+  "expect": "fake:0:0:11;data:132:549:0;data:1:131:0;data:0:1:0|F:badseq"
+ },
+ {
+  "id": "plan:norma-yt-16:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "fake,multidisorder",
+  "splitPos": "1,midsld",
+  "seqovl": 0,
+  "repeats": 11,
+  "fooling": "badseq",
+  "fakeLen": 0,
+  "expect": "fake:0:0:11;data:133:151:0;data:1:132:0;data:0:1:0|F:badseq"
+ },
+ {
+  "id": "plan:norma-yt-17:tls_clienthello_www_google_com.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_www_google_com.bin",
+  "modes": "fake",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 6,
+  "fooling": "badseq",
+  "fakeLen": 681,
+  "expect": "fake:0:681:6;data:0:681:0|F:badseq"
+ },
+ {
+  "id": "plan:norma-yt-17:tls_clienthello_4pda_to.bin",
+  "kind": "plan",
+  "hello": "tls_clienthello_4pda_to.bin",
+  "modes": "fake",
+  "splitPos": "",
+  "seqovl": 0,
+  "repeats": 6,
+  "fooling": "badseq",
+  "fakeLen": 681,
+  "expect": "fake:0:681:6;data:0:284:0|F:badseq"
+ }
+]

@@ -1,0 +1,7 @@
+# name: NORMA YT-11
+# family: tcp
+# scope: youtube
+# desc: fake, fooling=badseq
+# from: general (ALT8)
+# Файл создан tools/gen_strategies.py; правки будут перезаписаны при повторной генерации.
+--wf-tcp=443 --filter-tcp=443 --hostlist="%LISTS%list-google.txt" --ip-id=zero --dpi-desync=fake --dpi-desync-fake-tls-mod=none --dpi-desync-repeats=6 --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=2

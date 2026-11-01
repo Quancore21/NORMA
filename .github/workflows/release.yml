@@ -1,0 +1,51 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # NOTE: keep every script in this file ASCII-only (see ci.yml).
+      - name: Tag matches VERSION
+        shell: powershell
+        run: |
+          $tag = "${{ github.ref_name }}".TrimStart('v')
+          $v = (Get-Content VERSION -Raw).Trim()
+          if ($tag -ne $v) { Write-Error "Tag ($tag) does not match VERSION ($v)"; exit 1 }
+
+      - name: Core self-test
+        shell: powershell
+        run: powershell -NoProfile -ExecutionPolicy Bypass -File tools\selftest.ps1
+
+      - name: Build archive
+        shell: powershell
+        run: |
+          $v = (Get-Content VERSION -Raw).Trim()
+          $name = "NORMA-$v"
+          $dest = Join-Path "dist" $name
+          Remove-Item -Path "vendor\zapret\lists\*-user.txt" -ErrorAction SilentlyContinue
+          New-Item -ItemType Directory -Path $dest -Force | Out-Null
+          robocopy . $dest /E /XD .git .github dist /XF .gitattributes .gitignore | Out-Null
+          if ($LASTEXITCODE -ge 8) { Write-Error "robocopy failed with code $LASTEXITCODE"; exit 1 }
+          $zip = "dist\" + $name + ".zip"
+          Compress-Archive -Path $dest -DestinationPath $zip -Force
+          # the checksum file is what NORMA's auto-update verifies the download against
+          $hash = (Get-FileHash -LiteralPath $zip -Algorithm SHA256).Hash.ToLower()
+          Set-Content -Path ($zip + ".sha256") -Value ($hash + "  " + $name + ".zip") -Encoding ascii
+          $global:LASTEXITCODE = 0
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/*.zip
+            dist/*.sha256
+          generate_release_notes: true

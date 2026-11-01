@@ -1,0 +1,45 @@
+name: Ошибка / Bug report
+description: Что-то работает не так
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Что происходит
+      description: Что вы делали, что ожидали и что получилось
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия NORMA
+      description: Файл VERSION или заголовок меню
+      placeholder: "0.8"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Версия Windows
+      placeholder: "Windows 10 22H2 (сборка 19045)"
+    validations:
+      required: true
+  - type: input
+    id: strategy
+    attributes:
+      label: Стратегия
+      description: Какая стратегия была включена (видно в окне и в журнале)
+  - type: textarea
+    id: doctor
+    attributes:
+      label: Отчёт Доктора
+      description: Меню, пункт 6. Отчёт уже скопирован в буфер обмена
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Журнал
+      description: Последний файл из data/logs (при необходимости уберите личные данные)
+      render: text
