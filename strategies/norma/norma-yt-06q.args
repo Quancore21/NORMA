@@ -1,0 +1,7 @@
+# name: NORMA YT-06Q
+# family: quic
+# scope: youtube
+# desc: hostfakesplit, fooling=ts
+# from: general (ALT13)
+# Файл создан tools/gen_strategies.py; правки будут перезаписаны при повторной генерации.
+--wf-tcp=443 --wf-udp=443 --filter-udp=443 --hostlist="%LISTS%list-google.txt" --dpi-desync=fake --dpi-desync-repeats=6 --dpi-desync-fake-quic="%BIN%quic_initial_www_google_com.bin" --new --filter-tcp=443 --hostlist="%LISTS%list-google.txt" --dpi-desync=hostfakesplit --dpi-desync-fooling=ts --dpi-desync-hostfakesplit-mod=host=www.google.com
